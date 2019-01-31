@@ -6,7 +6,7 @@ This repository makes coding Easy.
 
 # Description
 
-Simple example shown in app section
+ Simple example shown in app section
 
 This Repository contains all the basic codes such as Date conversion , showing alert dialogs , checking network status , show soft keyboard , hide soft keyboard and etc.
 
@@ -20,13 +20,12 @@ This Repository contains all the basic codes such as Date conversion , showing a
 		}
 	}  
 	
-	Step2:  Add the dependency
+	  Step2:  Add the dependency
          dependencies {
 	        implementation 'com.github.rajendraprasad348:MasterCommonCodesHelper:1.0'
 	} 
  
-  
-  
+
   # Usage
   
    /*Shows Alert dialog */
