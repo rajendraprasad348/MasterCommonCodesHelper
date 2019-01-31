@@ -10,6 +10,9 @@ This repository makes coding Easy.
 
 This Repository contains all the basic codes such as Date conversion , showing alert dialogs , checking network status , show soft keyboard , hide soft keyboard and etc.
 
+ # Demo
+ https://www.youtube.com/watch?v=vsuv8pQIIbA&feature=youtu.be
+
 # installation
 
       Step1:  Add it in your root build.gradle at the end of repositories:
@@ -25,7 +28,9 @@ This Repository contains all the basic codes such as Date conversion , showing a
 	        implementation 'com.github.rajendraprasad348:MasterCommonCodesHelper:1.0'
 	} 
  
-
+ # Download APK
+ https://www.dropbox.com/s/3kyu1g4za0q0nip/MasterCommonCodes.apk?dl=0
+ 
   # Usage
   
    /*Shows Alert dialog */
