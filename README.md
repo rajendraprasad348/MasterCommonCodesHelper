@@ -10,25 +10,9 @@ Simple example shown in app section
 
 This Repository contains all the basic codes such as Date conversion , showing alert dialogs , checking network status , show soft keyboard , hide soft keyboard and etc.
 
-
-# 
-
- Step1:  
-                      allprojects {
-	                  	repositories {
-		                              	...
-			                              maven { url 'https://jitpack.io' }
-	                               	}
-	                                }  
-
-  Step 2:  
-                 dependencies {
-	                            implementation 'com.github.rajendraprasad348:MasterCommonCodesHelper:1.0'
-	                            }
-
 # installation
 
-      Step1:  
+      Step1:  Add it in your root build.gradle at the end of repositories:
            allprojects {
 		repositories {
 			...
@@ -36,7 +20,7 @@ This Repository contains all the basic codes such as Date conversion , showing a
 		}
 	}  
 	
-	Step2:  
+	Step2:  Add the dependency
          dependencies {
 	        implementation 'com.github.rajendraprasad348:MasterCommonCodesHelper:1.0'
 	} 
