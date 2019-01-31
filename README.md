@@ -11,7 +11,7 @@ Simple example shown in app section
 This Repository contains all the basic codes such as Date conversion , showing alert dialogs , checking network status , show soft keyboard , hide soft keyboard and etc.
 
 
-# installation
+# 
 
  Step1:  
                       allprojects {
@@ -26,23 +26,26 @@ This Repository contains all the basic codes such as Date conversion , showing a
 	                            implementation 'com.github.rajendraprasad348:MasterCommonCodesHelper:1.0'
 	                            }
 
-# Usage
+# installation
 
-    /*  Step1:  
+      Step1:  
            allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	} 
-  Step2:  
+	}  
+	
+	Step2:  
          dependencies {
 	        implementation 'com.github.rajendraprasad348:MasterCommonCodesHelper:1.0'
-	}  */
+	} 
+ 
   
-   /*   */
   
+  # Usage
   
+   /*Shows Alert dialog */
 1.  MastersCommonCodes.Builder(MainActivity.this).showDialogCaller(MainActivity.this, "MasterCommonCodes", "This is an sample alert dialog from MasterCommonCodes....", false, "DONE", "TYPE");
 
 
